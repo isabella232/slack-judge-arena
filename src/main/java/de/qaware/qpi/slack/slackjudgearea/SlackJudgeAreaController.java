@@ -44,7 +44,7 @@ public class SlackJudgeAreaController {
     @Autowired
     private RestService restService;
 
-    @RequestMapping(value = "/area", produces = "application/json")
+    @RequestMapping(value = "/arena", produces = "application/json")
     public String renderJudgeArea(
             Model model,
             @ModelAttribute("token") String token,
